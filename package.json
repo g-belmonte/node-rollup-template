@@ -1,0 +1,19 @@
+{
+  "name": "project-name-here",
+  "version": "0.0.1",
+  "description": "The description comes here",
+  "main": "src/main.js",
+  "repository": "https://github.com/githubname/repo",
+  "author": "author-name here",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@rollup/plugin-run": "^2.0.2",
+    "rollup": "^2.21.0"
+  },
+  "scripts": {
+    "start": "node bundle.js",
+    "build": "NODE_ENV=production rollup -c",
+    "dev": "rollup -c -w"
+  }
+}

@@ -9,7 +9,10 @@
   "private": true,
   "devDependencies": {
     "@rollup/plugin-run": "^2.0.2",
-    "rollup": "^2.21.0"
+    "rollup": "^2.21.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
   },
   "scripts": {
     "start": "node bundle.js",

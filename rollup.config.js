@@ -1,5 +1,5 @@
 import run from '@rollup/plugin-run';
-import typescript from 'rollup-plugin-typescript'
+import typescript from '@rollup/plugin-typescript';
 
 const dev = process.env.NODE_ENV !== 'production';
 

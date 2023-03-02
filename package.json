@@ -7,7 +7,6 @@
   "author": "author-name here",
   "license": "MIT",
   "private": true,
-  "type": "module",
   "devDependencies": {
     "@rollup/plugin-run": "3.0.1",
     "@rollup/plugin-typescript": "11.0.0",
